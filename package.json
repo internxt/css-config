@@ -1,0 +1,12 @@
+{
+  "name": "@internxt/css-config",
+  "version": "1.0.0",
+  "repository": "https://github.com/internxt/css-config.git",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "typescript": "^5.6.3"
+  }
+}
