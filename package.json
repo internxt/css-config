@@ -1,0 +1,14 @@
+{
+  "name": "css-config",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/internxt/css-config.git",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "typescript": "^5.6.3"
+  }
+}
