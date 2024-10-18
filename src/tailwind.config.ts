@@ -1,5 +1,6 @@
 /* eslint-disable */
-const config = {
+
+export const config = {
   darkMode: "class",
   content: ["./src/**/*.tsx"],
   options: {
@@ -220,5 +221,3 @@ const config = {
     },
   },
 };
-
-export default config;
