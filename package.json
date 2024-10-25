@@ -1,6 +1,6 @@
 {
   "name": "@internxt/css-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": "https://github.com/internxt/css-config.git",
   "license": "MIT",
   "files": [
@@ -11,6 +11,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "typescript": "^5.6.3"
+    "typescript": "^5.6.3",
+    "tailwindcss": "^3.4.14"
   }
 }
