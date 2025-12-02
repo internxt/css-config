@@ -12,7 +12,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "tailwindcss": "^3.4.14"
+    "tailwindcss": "^4.1.17"
   },
   "devDependencies": {
     "typescript": "^5.9.3"
