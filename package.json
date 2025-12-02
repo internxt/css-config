@@ -1,19 +1,21 @@
 {
   "name": "@internxt/css-config",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "repository": "https://github.com/internxt/css-config.git",
   "license": "MIT",
   "files": [
     "dist"
   ],
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
   "dependencies": {
-    "tailwindcss": "^3.4.14"
+    "tailwindcss": "^4.1.17"
   },
   "devDependencies": {
     "typescript": "^5.9.3"
-  }
+  },
+  "type": "module"
 }
