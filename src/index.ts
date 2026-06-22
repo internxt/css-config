@@ -71,7 +71,7 @@ const config: Config = {
       "indigo-dark": "rgb(var(--color-indigo-dark) / <alpha-value>)",
       alert: "rgb(var(--color-alert) / <alpha-value>)",
       "alert-dark": "rgb(var(--color-alert-dark) / <alpha-value>)",
-      danger: "rgb(var(--color-danger) / <alpha-value>)"
+      danger: "rgb(var(--color-danger) / <alpha-value>)",
 
       // Suplemental colors
       "pcComponentes-orange": "#F26122",
