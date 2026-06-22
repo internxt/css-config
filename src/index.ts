@@ -59,7 +59,9 @@ const config: Config = {
       "red-dark": "rgb(var(--color-red-dark) / <alpha-value>)",
       orange: "rgb(var(--color-orange) / <alpha-value>)",
       "orange-dark": "rgb(var(--color-orange-dark) / <alpha-value>)",
+      "orange-60":"rgb(var(--color-orange-60) / <alpha-value>)",
       yellow: "rgb(var(--color-yellow) / <alpha-value>)",
+      "yellow-60": "rgb(var(--color-yellow-60) / <alpha-value>)",
       "yellow-dark": "rgb(var(--color-yellow-dark) / <alpha-value>)",
       green: "rgb(var(--color-green) / <alpha-value>)",
       "green-dark": "rgb(var(--color-green-dark) / <alpha-value>)",
@@ -67,6 +69,9 @@ const config: Config = {
       "pink-dark": "rgb(var(--color-pink-dark) / <alpha-value>)",
       indigo: "rgb(var(--color-indigo) / <alpha-value>)",
       "indigo-dark": "rgb(var(--color-indigo-dark) / <alpha-value>)",
+      alert: "rgb(var(--color-alert) / <alpha-value>)",
+      "alert-dark": "rgb(var(--color-alert-dark) / <alpha-value>)",
+      danger: "rgb(var(--color-danger) / <alpha-value>)",
 
       // Suplemental colors
       "pcComponentes-orange": "#F26122",
