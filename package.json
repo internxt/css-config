@@ -11,9 +11,9 @@
     "build": "tsc"
   },
   "dependencies": {
-    "tailwindcss": "^3.4.14"
+    "tailwindcss": "^3.4.19"
   },
   "devDependencies": {
-    "typescript": "^5.9.3"
+    "typescript": "^6.0.3"
   }
 }
