@@ -21,12 +21,6 @@ export default {
 };
 ```
 
-You can also import `config` as a named export:
-
-```ts
-import { config } from '@internxt/css-config';
-```
-
 > **Note:** the `content` defined in this package points to `./src/**/*.tsx`, so each consuming project must override this property with its own paths, as shown in the example above.
 
 ## What's included
@@ -34,9 +28,8 @@ import { config } from '@internxt/css-config';
 - **Colors**: base palette (`gray`, `purple`, `blue`) and semantic colors (`primary`, `red`, `orange`, `yellow`, `green`, `pink`, `indigo`) defined via CSS variables (`--color-*`) to support dark mode (`darkMode: "class"`).
 - **Custom breakpoints** (`screens`): `xs`, `sm`, `md`, `lg`, `xl`.
 - **Theme extensions** (`theme.extend`): `dropShadow`, `zIndex`, `opacity`, `rotate`, `transitionDuration`, `transitionProperty`, `width`, `minWidth`, `borderWidth`, `ringOpacity`, `backgroundOpacity`, `ringWidth`, `borderRadius`, `fontSize`, `spacing`, `maxWidth`, `scale`, and `boxShadow`.
-- **Safelist** for navigation/tab classes (`nav-item`, `nav-link`, `tab-content`, `tab-pane`).
 
-See [`src/tailwind.config.ts`](src/tailwind.config.ts) for the full list of available values.
+See [`src/index.ts`](src/index.ts) for the full list of available values.
 
 ## Development
 
@@ -45,7 +38,7 @@ npm install   # install dependencies
 npm run build # compile TypeScript (src/) to JavaScript (dist/)
 ```
 
-The package is published from the contents of `dist/`, generated from `src/index.ts` and `src/tailwind.config.ts`.
+The package is published from the contents of `dist/`, generated from `src/index.ts`.
 
 ## Publishing
 
