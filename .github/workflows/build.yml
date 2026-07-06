@@ -9,19 +9,20 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    strategy:
+      matrix:
+        node-version: [24.x]
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Setup Node ${{ matrix.node-version }}
+        uses: actions/setup-node@v6
         with:
-          node-version: '22.x'
-          cache: yarn
+          node-version: ${{ matrix.node-version }}
 
       - name: Install dependencies
-        run: yarn install
+        run: npm ci
 
-      - name: Build package
-        run: yarn build
+      - name: Build
+        run: npm run build

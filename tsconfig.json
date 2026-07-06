@@ -4,8 +4,14 @@
     "module": "ESNext",
     "declaration": true,
     "outDir": "./dist",
+    "rootDir": "./src",
     "strict": true,
-    "moduleResolution": "bundler"
+    "declarationMap": true,
+    "sourceMap": true,
+    "moduleResolution": "bundler",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmitOnError": true
   },
   "include": ["src"]
 }
